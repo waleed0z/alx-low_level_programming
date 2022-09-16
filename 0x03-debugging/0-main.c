@@ -5,12 +5,12 @@
  * Return - zero (as always)
  */
 
-int main(void)
+int main (void)
 {
 int i;
 
 i = 0;
-positive_or_negative(i);
+positive_or_negative (i);
 
-return(0);
+return (0);
 }

@@ -3,6 +3,7 @@
 /**
  * main - causes an infinite loop
  * Return: 0
+ * printf - prints out information about the loop
  */
 
 int main(void)

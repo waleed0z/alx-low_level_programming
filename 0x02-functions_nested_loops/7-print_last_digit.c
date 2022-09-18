@@ -5,12 +5,18 @@
 * @n: takes in an integer
 * Return: result output
 */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int ln = n % 10;
-
-	if (n = 0)
-		ln = ln* -1;
-	_putchar(ln + '0');
-	return (ln);
+	if (n < 0)
+	{
+		(n = -1 * n);
+		(n = n % 10);
+		_putchar ('0' + n);
+	}
+	else
+	{
+		(n = n  % 10);
+		_putchar ('0' + n);
+	}
+	return (n);
 }

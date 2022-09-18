@@ -10,13 +10,13 @@
 void jack_bauer(void)
 
 {
-		int ho, mi;
+	int ho, mi;
 
 	for (ho = 00; ho < 24; ho++)
 	{
 		for (mi = 00; mi < 60; mi++)
 		{
-				if (ho < 24 && mi < 60)
+			if (ho < 24 && mi < 60)
 			{
 				_putchar((ho / 10) + '0');
 				_putchar((ho % 10) + '0');
